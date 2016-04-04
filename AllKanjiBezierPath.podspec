@@ -19,6 +19,6 @@
     s.source_files  = "WaniKit", "AllKanjiBezierPath/*.swift"
     s.public_header_files = "AllKanjiBezierPath/*.h"
     s.requires_arc = true
-    s.dependency 'SQLite'
+    s.dependency 'SQLite.swift'
 
   end
