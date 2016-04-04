@@ -322,6 +322,7 @@
 				4334AA7B1CB1B36A007F96D1 /* Frameworks */,
 				4334AA7C1CB1B36A007F96D1 /* Headers */,
 				4334AA7D1CB1B36A007F96D1 /* Resources */,
+				4334AC361CB24925007F96D1 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -358,6 +359,7 @@
 				4334AB1E1CB1BF35007F96D1 /* Frameworks */,
 				4334AB1F1CB1BF35007F96D1 /* Headers */,
 				4334AB201CB1BF35007F96D1 /* Resources */,
+				4334AC371CB249B0007F96D1 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -394,6 +396,7 @@
 				4334AB5F1CB23D65007F96D1 /* Frameworks */,
 				4334AB601CB23D65007F96D1 /* Headers */,
 				4334AB611CB23D65007F96D1 /* Resources */,
+				4334AC381CB249C8007F96D1 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -521,6 +524,51 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4334AC361CB24925007F96D1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SQLite.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		4334AC371CB249B0007F96D1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/SQLite.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		4334AC381CB249C8007F96D1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/tvOS/SQLite.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4334AA7A1CB1B36A007F96D1 /* Sources */ = {
@@ -925,6 +973,7 @@
 				4334AA951CB1B36B007F96D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4334AA961CB1B36B007F96D1 /* Build configuration list for PBXNativeTarget "AllKanjiBezierPathTests" */ = {
 			isa = XCConfigurationList;
@@ -933,6 +982,7 @@
 				4334AA981CB1B36B007F96D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4334AB331CB1BF35007F96D1 /* Build configuration list for PBXNativeTarget "AllKanjiBezierPath-OSX" */ = {
 			isa = XCConfigurationList;
@@ -941,6 +991,7 @@
 				4334AB351CB1BF35007F96D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4334AB361CB1BF35007F96D1 /* Build configuration list for PBXNativeTarget "AllKanjiBezierPath-OSXTests" */ = {
 			isa = XCConfigurationList;
@@ -949,6 +1000,7 @@
 				4334AB381CB1BF35007F96D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4334AB741CB23D66007F96D1 /* Build configuration list for PBXNativeTarget "AllKanjiBezierPath-TVOS" */ = {
 			isa = XCConfigurationList;
@@ -957,6 +1009,7 @@
 				4334AB761CB23D66007F96D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4334AB771CB23D66007F96D1 /* Build configuration list for PBXNativeTarget "AllKanjiBezierPath-TVOSTests" */ = {
 			isa = XCConfigurationList;
@@ -965,6 +1018,7 @@
 				4334AB791CB23D66007F96D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
