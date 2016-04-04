@@ -22,6 +22,7 @@
     s.resource_bundles = {
       'AllKanjiBezierPath' => ['AllKanjiBezierPath/*.db']
     }
-    s.frameworks = 'SQLite'
+    s.s.frameworks = 'SQLite'
+    s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => {'Carthage/Build/iOS','Carthage/Build/macOS', 'Carthage/Build/tvOS'} }
 
   end
