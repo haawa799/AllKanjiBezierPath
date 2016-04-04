@@ -2,7 +2,7 @@
   Pod::Spec.new do |s|
 
     s.name         = "AllKanjiBezierPath"
-    s.version      = "0.0.3"
+    s.version      = "0.0.4"
     s.summary      = "AllKanjiBezierPath - tool to get kanji strokes in form of UIBezierPath/NSBezierPath array"
     s.description  = <<-DESC
     AllKanjiBezierPath - tool to get kanji strokes in form of UIBezierPath/NSBezierPath array. I use it in WaniKani for iOS app/
@@ -18,5 +18,10 @@
     s.source       = { :git => "https://github.com/haawa799/AllKanjiBezierPath.git", :tag => "v#{s.version}" }
     s.source_files  = "WaniKit", "AllKanjiBezierPath/*.swift"
     s.public_header_files = "AllKanjiBezierPath/*.h"
+    s.requires_arc = true
+    s.resource_bundles = {
+      'AllKanjiBezierPath' => ['AllKanjiBezierPath/*.db']
+    }
+    s.frameworks = 'SQLite'
 
   end
