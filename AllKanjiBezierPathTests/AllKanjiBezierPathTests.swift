@@ -10,27 +10,45 @@ import XCTest
 @testable import AllKanjiBezierPath
 
 class AllKanjiBezierPathTests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
+  
+  func testExample京() {
+    guard let bez = AllKanjiHelper.pathesForKanji("京") else { fatalError() }
+    XCTAssertEqual(bez.count, 8)
+  }
+  
+  func testExample数() {
+    guard let bez = AllKanjiHelper.pathesForKanji("数") else { fatalError() }
+    XCTAssertEqual(bez.count, 13)
+  }
+  
+  func testExample働() {
+    guard let bez = AllKanjiHelper.pathesForKanji("働") else { fatalError() }
+    XCTAssertEqual(bez.count, 13)
+  }
+  
+  func testExample苦() {
+    guard let bez = AllKanjiHelper.pathesForKanji("苦") else { fatalError() }
+    XCTAssertEqual(bez.count, 8)
+  }
+  
+  func testExample指() {
+    guard let bez = AllKanjiHelper.pathesForKanji("指") else { fatalError() }
+    XCTAssertEqual(bez.count, 9)
+  }
+  
+  func testExample郎() {
+    guard let bez = AllKanjiHelper.pathesForKanji("郎") else { fatalError() }
+    XCTAssertEqual(bez.count, 9)
+  }
+  
+  func testExample病() {
+    guard let bez = AllKanjiHelper.pathesForKanji("病") else { fatalError() }
+    XCTAssertEqual(bez.count, 10)
+  }
+  
+  func testExample院() {
+    guard let bez = AllKanjiHelper.pathesForKanji("院") else { fatalError() }
+    XCTAssertEqual(bez.count, 10)
+  }
+  
 }

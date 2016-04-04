@@ -4,8 +4,24 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AllKanjiBezierPath.xcscheme</key>
+		<key>AllKanjiBezierPath-OSX.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>AllKanjiBezierPath-TVOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>AllKanjiBezierPath.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
@@ -18,6 +34,36 @@
 			<true/>
 		</dict>
 		<key>4334AA881CB1B36B007F96D1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4334AB211CB1BF35007F96D1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4334AB2A1CB1BF35007F96D1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4334AB421CB1C3C4007F96D1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4334AB4B1CB1C3C4007F96D1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4334AB621CB23D65007F96D1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4334AB6B1CB23D66007F96D1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

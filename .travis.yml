@@ -1,0 +1,8 @@
+language: objective-c
+env:
+  - BUILD_SCHEME="AllKanjiBezierPath"
+  - BUILD_SCHEME="AllKanjiBezierPath-OSX"
+  - BUILD_SCHEME="AllKanjiBezierPath-TVOS"
+before_install:
+  - gem install xcpretty --no-document
+osx_image: xcode7.3
